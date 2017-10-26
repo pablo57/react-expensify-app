@@ -87,17 +87,18 @@ export default class ExpenseForm extends React.Component {
                         focused={this.state.calendarFocused}
                         onFocusChange={this.onFocusedChange}
                         numberOfMonths={1}
-                        isOutsideRange={() => false }
+                        isOutsideRange={() => false}
                     />
                     <textarea
                         placeholder="Add a note for your expense (optional)"
                         value={this.state.note}
                         onChange={this.onNoteChange}
                     >
+                    Note (optional)
                     </textarea>
                     <button>Add Expense</button>
                 </form>
             </div>
-        )
+        );
     }
 }
