@@ -13,6 +13,8 @@ import { setTextFilter } from './actions/filters';
 
 import getVisibleExpenses from './selectors/expenses';
 
+import './firebase/firebase';
+
 const store = configureStore();
 
 const jsx = (
@@ -21,4 +23,4 @@ const jsx = (
     </Provider>
 );
 
-ReactDOM.render(jsx ,document.getElementById('app'));
+ReactDOM.render(jsx, document.getElementById('app'));

@@ -26,6 +26,7 @@
             "error",
             4
         ],
+        "quotes": 0,
         "arrow-body-style": [1, "as-needed"],
         "react/jsx-filename-extension": 0,
         "react/prop-types": 0,
